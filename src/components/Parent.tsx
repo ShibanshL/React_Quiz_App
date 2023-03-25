@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import './Parent.css'
-import { BrowserRouter } from 'react-router-dom'
+import { BrowserRouter, HashRouter } from 'react-router-dom'
 import { Route, Routes } from 'react-router'
 import Home from './Home'
 import Details from './Details'
@@ -38,21 +38,21 @@ function Parent() {
     }
 
   return (
-    <BrowserRouter>
+    <HashRouter>
         <div className="Main">
             {navbar_visibility()}
             <div className="Variable_Contents">
                 <Routes>
-                    {/* <Route path='/React_Quiz_App/*'> */}
-                        <Route index path='/React_Quiz_App' element={<Home />} />
-                        <Route path='/React_Quiz_App/Details' element={<Details />} />
-                        <Route path='/React_Quiz_App/Quiz' element={<Quiz />} />
-                        <Route path='/React_Quiz_App/Finish' element={<Finish />} />
-                    {/* </Route> */}
+                    <Route path='/*'>
+                        <Route index element={<Home />} />
+                        <Route path='Details' element={<Details />} />
+                        <Route path='Quiz' element={<Quiz />} />
+                        <Route path='Finish' element={<Finish />} />
+                    </Route>
                 </Routes>
             </div>
         </div>
-     </BrowserRouter>
+     </HashRouter>
   )
 }
 
