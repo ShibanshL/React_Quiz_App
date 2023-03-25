@@ -38,7 +38,7 @@ function Quiz() {
     const [questionNo, setQuestionNO] = useState(1)
 
     //These controls the timeer
-    const [countDown,setCountDown] = useState(900)
+    const [countDown,setCountDown] = useState(300)
     const timerID:any = useRef()
 
     //This is the function which does the countdown
