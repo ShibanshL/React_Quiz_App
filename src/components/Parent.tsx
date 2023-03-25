@@ -43,7 +43,7 @@ function Parent() {
             {navbar_visibility()}
             <div className="Variable_Contents">
                 <Routes>
-                    <Route path='/*'>
+                    <Route path='/React_Quiz_App/*'>
                         <Route index element={<Home />} />
                         <Route path='Details' element={<Details />} />
                         <Route path='Quiz' element={<Quiz />} />
