@@ -1,0 +1,580 @@
+*{
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+*:focus{
+    outline: 0 !important;
+}
+
+.Main{
+    height: 100vh;
+    width:100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Navbar {
+    height:10%;
+    width:100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(221, 221, 221);
+    padding:10px;
+}
+
+.NavBar_Sub{
+    height:100%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.NavBar_Sub .Icons{
+    height:100%;
+    width:20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Icons div{
+    height:35px;
+    width:35px;
+    border-radius: 100px;
+    background: url('../assets/Icon.jpg');
+    background-size: cover;
+}
+
+.Variable_Contents{
+    height:90%;
+    width:100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.Home {
+    height:100vh;
+    width:100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgb(255, 255, 255);
+    position: relative;
+    overflow: hidden !important;
+}
+
+.Home .Home_Sub{
+    height:100%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    z-index: 1;
+    overflow: hidden !important
+    
+}
+
+.Home .Heading{
+    height:70%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Heading h1{
+    color:rgba(0, 0, 0, 0.833);
+    font-weight:500;
+    font-size: 2.4em;
+}
+
+.Heading h1 span{
+    color:rgb(0, 0, 0);
+    font-weight:700;
+    font-size: 1.5em;
+}
+
+.Heading p{
+    color:black;
+    margin-top: 5vh;
+}
+
+.Home .Quiz_Test{
+    height:30%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Quiz_Test h1{
+    color:black;
+    font-size: 1.4em;
+}
+
+.Quiz_Test button{
+    margin-top:5vh;
+    width:80%;
+    border-radius: 30px;
+    background-color: purple;
+}
+
+.Details{
+    height:100%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgb(255, 255, 255);
+    overflow: hidden;
+    position: relative;
+}
+
+.Details .Top_Part{
+    height:30%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url('https://i.pinimg.com/736x/36/0b/b5/360bb50df7a866ca21fa349a94fed222--basketball-art-basketball-legends.jpg');
+    background-size: cover;
+}
+
+.Details .Top_Part h1{
+    font-size:1.5em;
+}
+
+.Details .Bottom_Part{
+    height:70%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Bottom_Part h1{
+    height: 10%;
+    color: black;
+    font-size: 1.8em;
+    display: flex;
+     align-items: center;
+    justify-content: center;
+}
+
+.Bottom_Part .Info_Part{
+    height:90%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Info_Part .Ratings{
+    height:30%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.Ratings .list_Info{
+    height:100%;
+    width:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list_Info ul p{
+    color:black
+}
+
+.Ratings .sub_Ratings{
+    height:100%;
+    width:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sub_Ratings .Top_IconPart{
+    height:50%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.Top_IconPart .top_Users{
+    height:80%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+    background: white;
+}
+
+.top_Users div{
+    height:25px;
+    width:25px;
+    border-radius: 50px;
+    background: yellow;
+    border:3px solid white;
+}
+
+.top_Users div:nth-child(1){
+    position: absolute;
+    left:28%;
+    background: url('../assets/1.jpg');
+    background-size: cover;
+}
+
+.top_Users div:nth-child(2){
+    position: absolute;
+    left:35%;
+     background: url('../assets/2.jpg');
+    background-size: cover
+}
+
+.top_Users div:nth-child(3){
+    position: absolute;
+    left:43%;
+    z-index: 3;
+    background: url('../assets/3.jpg');
+    background-size: cover
+}
+
+.top_Users .Badge{
+    height:25px;
+    width:30px;
+    border-radius: 50px;
+    background: yellow;
+    border:3px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    color:purple;
+    font-size: .5em;
+    font-weight: 600;
+    position: absolute;
+    left:53%;
+    z-index: 3;
+
+}
+
+
+.Top_IconPart .bottom_Texts{
+    height:20%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+   
+
+}
+
+.bottom_Texts p{
+    font-size: .6em;
+    color:black;
+}
+
+.sub_Ratings .Bottom_Rating_Part{
+    height:50%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Bottom_Rating_Part .stars{
+    height:80%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.Bottom_Rating_Part .texts{
+    height:20%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.texts p{
+    font-size: .6em;
+    color:black;
+    margin-top: -3vh;
+}
+
+.Info_Part .subDetails{
+    height:70%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.subDetails .quizInfo{
+    height:30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quizInfo p {
+    font-size: .8em;
+    color:black;
+    padding: 20px;
+}
+
+.subDetails .quizDetails{
+    height:40%;
+    display: flex;
+    width:100%;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.quizDetails h3{
+    font-size: .8em;
+    color:black
+}
+
+.subDetails ul{
+   text-align: left;
+   margin-left: 5.5vw;
+}
+
+.subDetails button{
+    height:20%;
+    width:85%;
+    padding: 10px;
+    border-radius: 25px;
+    margin-top: 1.5vh;
+    border:none;
+}
+
+.Quiz{
+    height:100vh;
+    width:100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgb(255, 255, 255);
+    overflow: hidden;
+    position: relative;
+   
+}
+
+.Quiz .info_Badges{
+    height:10%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     padding: 0 15px 0 15px;
+     background: rgb(220, 220, 220);
+}
+
+.Quiz .info_Badges .numOfQuestions{
+    height:40%;
+    width:20%;
+    border-radius: 20px;
+    background: #6ac193;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .8em;
+    font-weight: 700;
+}
+
+.Quiz .info_Badges .Timer{
+    height:40%;
+    width:20%;
+    border-radius: 20px;
+    background: #bf81de;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .8em;
+    font-weight: 700;
+}
+
+.Quiz .Questions{
+    height:30%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.Questions h1{
+    color:black;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.Quiz .Options{
+    height:50%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Quiz .Options button{
+    height:40px;
+    width:80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgb(51, 146, 255);
+    margin:10px;
+    border-radius: 30px;
+}
+
+.Quiz .next_button{
+    height:10%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.next_button button{
+    height:35px;
+    width:40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: purple;
+    border-radius: 20px;
+
+}
+
+@media screen and (min-width:500px) {
+    .Heading h1{
+    color:rgba(0, 0, 0, 0.833);
+    font-weight:500;
+    font-size: 4em;
+}
+
+.Heading h1 span{
+    color:rgb(0, 0, 0);
+    font-weight:700;
+    font-size: 2em;
+}
+
+.Quiz_Test button{
+    margin-top:5vh;
+    width:35%;
+    border-radius: 30px;
+    background-color: purple;
+}
+
+.Details .Top_Part h1{
+    font-size:6em;
+    font-weight: 800;
+}   
+
+.Bottom_Part h1{
+    height: 10%;
+    color: black;
+    font-size: 1.8em;
+    display: flex;
+     align-items: center;
+    justify-content: flex-start;
+    font-size: 2.5em;
+}
+
+.subDetails button{
+    height:20%;
+    width:35%;
+    padding: 10px;
+    border-radius: 50px;
+    margin-top: 1.5vh;
+    border:none;
+}
+
+.subDetails .quizDetails{
+    height:40%;
+    display: flex;
+    width:70%;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.next_button button{
+    height:35px;
+    width:20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: purple;
+    border-radius: 20px;
+
+}
+
+.Quiz .Options button{
+    height:40px;
+    width:40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgb(51, 146, 255);
+    margin:10px;
+    border-radius: 30px;
+}
+
+.Questions h1{
+    color:black;
+    font-size: 3em;
+    font-weight: 500;
+}
+
+}

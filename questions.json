@@ -1,0 +1,52 @@
+[
+    {
+        "question":"How many times was Micheal Jordan named the season MVP?",
+        "answer":"5",
+        "options":[ 
+            "4",
+            "6",
+            "3",
+            "5"
+        ]
+    },
+    {
+        "question":"Which team won the NBA championship last year?",
+        "answer":"Golden State Warriors",
+        "options":[
+            "Miami Heat",
+            "Boston Celtics",
+            "Golden State Warriors",
+            "Phoenix Suns"
+        ]
+    },
+    {
+        "question":"Which NBA franchise has the most number of championships?",
+        "answer":"Boston Celtics",
+        "options":[
+            "Boston Celtics",
+            "Los Angeles Lakers",
+            "Golden State Warriors",
+            "San Antonio Spurs"
+        ]
+    },
+    {
+        "question":"Which team came back a 3-1 deficit in the finals and won the NBA Championship in 2016?",
+        "answer":"Cleveland Caveliers",
+        "options":[
+            "Los Angeles Clippers",
+            "Boston Celtics",
+            "Golden State Warriors",
+            "Cleveland Caveliers"
+        ]
+    },
+    {
+        "question":"Which NBA team is not situated in USA?",
+        "answer":"Torronto Raptors",
+        "options":[ 
+            "Torronto Raptors",
+            "Boston Celtics",
+            "Miami Heat",
+            "Housten Rockets"
+     ]
+    }
+]
